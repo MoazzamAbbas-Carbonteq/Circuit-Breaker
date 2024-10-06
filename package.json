@@ -6,8 +6,9 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "format": "prettier --write .",
-    "lint": "eslint .",
-    "pre-commit": "npm run format",
+    "lint": "eslint ./src",
+    "test": "npx jest",
+    "pre-commit": "npm run format && npm run lint && npm run test",
     "build": "tsc",
     "prepare": "husky"
   },
