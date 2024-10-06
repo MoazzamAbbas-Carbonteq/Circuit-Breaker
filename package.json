@@ -1,5 +1,5 @@
 {
-  "name": "test-project",
+  "name": "circuit-breaker-lib",
   "version": "1.0.0",
   "description": "A circuit breaker for managing fault tolerance in centralized and distributed systems",
   "main": "dist/index.js",
