@@ -7,8 +7,9 @@
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint .",
-    "pre-commit": "npm run format && npm run lint",
-    "build": "tsc"
+    "pre-commit": "npm run format",
+    "build": "tsc",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
