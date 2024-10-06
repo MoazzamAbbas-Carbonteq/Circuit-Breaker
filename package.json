@@ -1,6 +1,6 @@
 {
   "name": "circuit-breaker-lib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A circuit breaker for managing fault tolerance in centralized and distributed systems",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,9 +12,26 @@
     "build": "tsc",
     "prepare": "husky"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "circuit-breaker",
+    "fault-tolerance",
+    "typescript",
+    "resilience",
+    "centralized",
+    "distributed",
+    "error-handling",
+    "circuit-breaker-lib"
+  ],
+  "author": "Moazzam Abbas",
   "license": "ISC",
+  "homepage": "https://github.com/MoazzamAbbas-Carbonteq/Circuit-Breaker/#readme",
+  "bugs": {
+    "url": "https://github.com/MoazzamAbbas-Carbonteq/Circuit-Breaker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoazzamAbbas-Carbonteq/Circuit-Breaker.git"
+  },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
     "@types/eslint__js": "^8.42.3",
